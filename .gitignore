@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+TACO-source/
+dataset/
+
+runs/
+results/
+
+*.log
+.DS_Store
