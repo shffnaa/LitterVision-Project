@@ -10,3 +10,17 @@ results/
 
 *.log
 .DS_Store
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Experimental model checkpoints
+models/*backup*.pt
+models/last*.pt
+models/*finetune*.pt
+
+# Archive files
+*.zip
